@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f7f9fd;
+}
+
+.logo {
+  padding-left: 2rem;
+  padding: 1rem 0 1rem 4rem;
+}
+
+.header-projects {
+  text-transform: uppercase;
+  padding: 1rem 0 0 7rem;
+  border-bottom: 2px solid #0000001a;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-outer {
+  position: relative;
+}
+
+.project-add-btn {
+  background-color: #424242;
+  position: absolute;
+  right: 4rem;
+  top: -5.5rem;
+}
+
+.project-add-btn:hover {
+  background-color: #3d3a4f;
+  border: none;
+}
+
+.project-input {
+  width: 35%;
+}
+
+.add-project {
+  background-color: #ffff;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.new-project-outer {
+  background-color: #ffff;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+  border-bottom: 2px solid #0000001a;
+}
+
+.new-project-outer p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #000000b2;
+}
+
+.new-project-outer span {
+  color: #000000b2;
+}
+
+.name-edit {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
