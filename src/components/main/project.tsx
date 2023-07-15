@@ -43,7 +43,6 @@ export default function Project({ show, setShow, allProjects, setAllProjects }) 
                 </div>
             ) 
             }
-
             {
                 allProjects?.map(eachProject => (
                     <EachProject project={eachProject} key={eachProject.id} updateProjectName={updateProjectName} deleteProject={deleteProject} />
@@ -51,4 +50,5 @@ export default function Project({ show, setShow, allProjects, setAllProjects }) 
             }
         </>
     )
+
 }
